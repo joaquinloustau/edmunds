@@ -149,7 +149,10 @@ p.to-2 {
     border-right: 14px solid transparent;
     content:" ";
 }*/
-
+.container.timeline {
+    width: 100%;
+    background-color: cyan;
+}
 
 .timeline-panel:after {
     margin-right: auto;
