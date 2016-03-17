@@ -1,0 +1,11 @@
+#widget {
+	height: 100% !important;
+}
+
+.wrapper {
+    text-align: center;
+}
+    
+.li {
+	font-size: 200px;
+}

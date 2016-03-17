@@ -1,0 +1,169 @@
+  body{
+    background-color: #f5ef7c;
+  }
+  nav.navbar-inner {
+    background-color: #ffffff;
+    /* remove the gradient */
+    background-image: none;
+    /* set font color */
+    color: white;
+    border: 1px solid #ddd;
+  }
+    
+  /* menu items */
+
+  .navbar .nav > .active > a {
+    color: #8841e3;
+    background: #ffffff;
+    box-shadow: none;
+  }
+
+  .navbar .nav > li > a,
+  .navbar .nav > li > a > i,
+  .navbar .nav > li > .dropdown-toggle {
+    color: #6b8de6;
+    background: #ffffff;
+    box-shadow: none;
+    text-shadow: none;
+  }
+
+  /* set hover and focus */
+  .navbar .nav > li > a:focus,
+  .navbar .nav > li > a:hover,
+  .navbar .nav > li > a > i:focus,
+  .navbar .nav > li > a > i:hover{
+    background-color: #ffffff;
+    color: #8841e3;
+    .caret {
+      border-top: 4px solid black !important;
+    }
+  }
+  
+  
+  .navbar .nav li.dropdown.open > .dropdown-toggle .caret, 
+  .navbar .nav li.dropdown.active > .dropdown-toggle .caret, 
+  .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+    border-top-color:#8841e3;
+    border-bottom-color:#8841e3;
+  }
+  
+  
+  .navbar .nav > li > .dropdown-toggle:hover,
+  .navbar .nav > li.dropdown.open > .dropdown-toggle{
+    background-color:#ffffff;
+    color: #8841e3;
+    .caret {
+      border-top-color:#8841e3;
+      border-bottom-color:#8841e3;
+    }
+  }
+  
+  .navbar .nav li.dropdown > a:hover .caret, 
+  .navbar .nav li.dropdown > a:focus .caret,
+  .navbar .nav li.dropdown > a:active .caret{
+    border-top-color:#8841e3;
+    border-bottom-color:#8841e3;
+  }
+  
+  /* set active item  */
+  .navbar .nav > .active > a:hover,
+  .navbar .nav > .active > a:focus {
+    background-color: #ffffff;
+    box-shadow: none;
+    color: #8841e3;
+  }
+
+  /* set font color and background of the project name (brand) */
+  .navbar .brand {
+    background-color: #ffffff;
+    color: #6b8de6;
+    text-shadow: none;
+  }
+
+  div#footer{
+    background-color: #ffffff;
+  }
+
+  .dashboard-bonus img.profile {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  .dashboard-bonus .media-body .media-heading .reason {
+    font-size: 50px;
+    line-height: 72px;
+  }
+
+  @media (min-width: 1800px)
+.dashboard-bonus .media-body .bubble-footer {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+  @media (min-width: 1200px)
+.dashboard-bonus .media-body .bubble-footer {
+    font-size: 35px;
+    line-height: 45px;
+}
+.dashboard-bonus .media-body .bubble-footer {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #f0f0f0;
+    color: #999;
+    font-size: 26px;
+    line-height: 30px;
+    padding: 25px 50px;
+}
+
+.dashboard-bonus .to.small {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.dashboard-bonus .from.name.small {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.dashboard-bonus .from.name.small {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.dashboard-bonus .from {
+    color: #999;
+}
+
+.dashboard-bonus .reason-from {
+    color: #999;
+}
+
+.dashboard-bonus .to {
+    line-height: 72px;
+    color: #999;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 300px;
+    font-size: 60px;
+}
+
+.dashboard-bonus .from.name {
+    line-height: 72px;
+    color: #999;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 300px;
+    font-size: 60px;
+}
+
+  div#footer .container .footer-groups .footer-group ul li:first-child{ color: #6b8de6; }
+  div#footer .container .footer-groups .footer-group ul li.subheading{ color: #6b8de6; }
+  div#footer .container .footer-groups .footer-group ul li a{ color: #6b8de6; opacity: 0.75; }
+  div#footer .container .footer-groups .footer-group ul li a:hover{ color: #8841e3; }
+  div#footer .container .footer-groups .footer-end-group{ color: #6b8de6; }
+  div#footer .container .footer-groups .footer-end-group ul li a{ color: #6b8de6;opacity: 0.75; }
+  div#footer .container .footer-groups .footer-end-group ul li a:hover{ color: #8841e3; }

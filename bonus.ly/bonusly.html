@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<link rel="stylesheet" type="text/css" href="bonusly.css">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"74e0869c84","applicationID":"838037","transactionName":"J1daR0AMVVpSQxtRCwlIVV1LTF1XRFlWXQUWXEccWw1dU08=","queueTime":1,"applicationTime":32,"agent":""}</script>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
+<title>Edmunds Bonusly Program EdBucks</title>
+<meta content='The easiest way to recognize and reward employees. Increase employee engagement and retention with Bonusly. http://bonus.ly' name='description'>
+<meta content='' name='author'>
+<link href="https://bonusly-herokuapp-com.global.ssl.fastly.net/assets/application-11aca15f6972f22db49fc244f45cee30.css" media="all" rel="stylesheet" type="text/css" />
+<link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/start/jquery-ui.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css" />
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="y2vxqQKcJ5kfL/bjYSD9Eai+g85RMUT5jOy2lBpwtdQ=" name="csrf-token" />
+
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34854530-1']);
+  _gaq.push(['_setDomainName', 'bonus.ly']);
+  _gaq.push(['_trackPageview']);
+  
+  
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script>
+  _gaq.push(['_setCustomVar', 1, 'Company', 'edmunds-bonusly-program', 1]);
+  _gaq.push(['_setCustomVar', 2, 'UserType', 'normal', 1]);
+</script>
+
+<meta content='Edmunds Bonusly Program EdBucks' property='og:title'>
+<meta content='https://bonusly-herokuapp-com.global.ssl.fastly.net/assets/logo/rectangular_banner_logo_920-420ee973e1f97a0395023533786bb9df.jpg' property='og:image'>
+<meta content='https://bonus.ly/company/dashboards' property='og:url'>
+<meta content='The easiest way to recognize and reward employees. Increase employee engagement and retention with Bonusly. http://bonus.ly' property='og:description'>
+<meta content='https://bonus.ly' property='twitter:site'>
+<meta content='@bonusly' property='twitter:creator'>
+<meta content='Edmunds Bonusly Program EdBucks' property='twitter:title'>
+<meta content='The easiest way to recognize and reward employees. Increase employee engagement and retention with Bonusly. http://bonus.ly' property='twitter:description'>
+<meta content='summary_large_image' property='twitter:card'>
+<meta content='https://bonusly-herokuapp-com.global.ssl.fastly.net/assets/logo/rectangular_banner_logo_920-420ee973e1f97a0395023533786bb9df.jpg' property='og:image'>
+
+<link href="https://bonusly-herokuapp-com.global.ssl.fastly.net/assets/logo/bonusly_favicon_16_4.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href='/assets/logo/apple-touch-icon.png' rel='apple-touch-icon'>
+<link href='/assets/logo/apple-touch-icon-precomposed.png' rel='apple-touch-icon-precomposed'>
+
+</head>
+<body>
+<div class='dashboard-bonus'>
+<div class='visible-phone too-small heavier text-center'>
+<p>The dashboard likes a big screen.</p>
+<p>Go big or go home!!</p>
+</div>
+<div class='hidden-phone'>
+<a class='btn pull-right btn-primary' id='advance'>
+advance
+</a>
+<div class='media'>
+</div>
+<div class='media-body'>
+<div class='media-heading heavy fadeable'>
+<div class='triangle-border top shadow'>
+<div class='reason'>
+<span class='reason-text'>
+<img alt="Spinner_64" class="spinner" src="https://bonusly-herokuapp-com.global.ssl.fastly.net/assets/spinner_64-847f3d417ebe2fe29aa9e0a494e0fa0e.gif" />
+Loading Data ...
+</span>
+<span class='reason-from'></span>
+</div>
+<div class='bubble-footer'>
+<div class='row'>
+<div class='ago pull-right'>
+<span class='time-ago'></span>
+</div>
+<div class='amount pull-left'>
+<span class='amount'></span>
+</div>
+</div>
+</div>
+<div class='subfooter pull-right'>
+<span class='powered-by'>
+powered by:
+</span>
+http://bonus.ly
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='pull-left'>
+  <img class='profile giver media-object shadow' src='/assets/noPic_80.png'>
+<p class='from name text-center heavy'>
+...
+</div>
+<div>
+<p>Thanks</p>
+</div>
+<div class='pull-right'>
+<img class='profile media-object shadow' src='/assets/noPic_80.png'>
+<p class='to text-center heavy'>
+...
+</p>
+</div>
+</div>
+<script>
+  var bonuses = [];
+  var bonuses_buffer_size = 30;
+  var current_bonus = 0;
+  var delay = 1000
+  
+  $(document).ready(function() {
+    if('false' == 'false') {
+      setInterval(function() { display_bonus(); advance_bonus(); }, 10*delay);
+    }
+    setInterval(function() { load_bonuses(bonuses_buffer_size) }, 5*60*delay);
+    load_bonuses(bonuses_buffer_size);
+    if('false'== 'true') {
+      $("#advance").css('display', 'block');
+    }
+  });
+  
+  function advance_bonus() {
+    current_bonus++;
+  }
+  
+  function display_bonus() {
+    if(current_bonus > (bonuses.length - 1)) {
+      current_bonus = 0;
+    }
+    if(bonuses.length > 0) {
+      update_dashboard_with_bonus(bonuses[current_bonus]);
+    }
+  }
+  
+  function shuffle(o){
+      for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+      return o;
+  };
+  
+  
+  function timeSince(date) {
+    var seconds = Math.floor((new Date() - date) / 1000);
+    var interval = Math.floor(seconds / 31536000);
+  
+    if (interval > 1) {
+      return interval + " years";
+    }
+    interval = Math.floor(seconds / 2592000);
+    if (interval > 1) {
+      return interval + " months";
+    }
+    interval = Math.floor(seconds / 86400);
+    if (interval > 1) {
+      return interval + " days";
+    }
+    interval = Math.floor(seconds / 3600);
+    if (interval > 1) {
+      return interval + " hours";
+    }
+    interval = Math.floor(seconds / 60);
+    if (interval > 1) {
+      return interval + " minutes";
+    }
+    return Math.floor(seconds) + " seconds";
+  }
+  
+  function update_dashboard_with_bonus(bonus) {
+    $(".fadeable").fadeOut(delay, function() {
+      if (bonus.receivers[0].short_name.length > 8) {
+        $('.to').toggleClass('small', true);
+      } else {
+        $('.to').toggleClass('small', false);
+      }
+
+      if (bonus.giver.short_name.length > 8) {
+        $('.from.name').toggleClass('small', true);
+      } else {
+        $('.from.name').toggleClass('small', false);
+      }
+  
+      $('.profile').attr("src", bonus.receivers[0].full_pic_url); //#TODO: This will need a new UI to accomodate more receivers
+      $('.profile.giver').attr("src", bonus.giver.full_pic_url); //#TODO: This will need a new UI to accomodate more 
+      $('.from').text(bonus.giver.short_name);               
+      $('.profile').one('load', function() {
+        $('.to').text(bonus.receivers[0].short_name); 
+        $('.reason-text').html(jQuery.truncate(bonus.reason_html, { length: 140, words: true }));
+        $('.reason-from').text(' - ' + bonus.giver.short_name);
+        $('.time-ago').text(timeSince(new Date(bonus.created_at)) + ' ago');
+        if('false' == 'true') {
+          $('.amount').text(bonus.amount_with_currency);
+        }
+      }).each(function() {
+        if(this.complete) $(this).load();
+      });
+      $(".fadeable").fadeIn(delay);
+    });
+  }
+  
+  function load_bonuses(bonuses_buffer_size) {
+    // console.log("loading bonuses");
+    endpoint = "https://bonus.ly/api/v1/bonuses?limit="+bonuses_buffer_size+"&top_level=true";
+    access_token = '3625b98290b8600fefc94919be80947c';
+    if(access_token != '') {
+      endpoint += "&access_token="+access_token;
+    }
+    $.getJSON(endpoint, function(data) {
+      bonuses = eval(data['result']);
+      if('false' == 'false') {
+        bonuses = shuffle(bonuses);
+      }
+      current_bonus = 0;
+      display_bonus();
+      advance_bonus();
+    });
+  }
+  
+  $(function(){
+    $('#advance').click(function(e) {
+      display_bonus();
+      advance_bonus();
+    });
+  });
+</script>
+<script>
+  (function($) {
+  
+    // Matches trailing non-space characters.
+    var chop = /(\s*\S+|\s)$/;
+  
+    // Return a truncated html string.  Delegates from $.fn.truncate.
+    $.truncate = function(html, options) {
+      return $('<div></div>').append(html).truncate(options).html();
+    };
+  
+    // Truncate the contents of an element in place.
+    $.fn.truncate = function(options) {
+      if ($.isNumeric(options)) options = {length: options};
+      var o = $.extend({}, $.truncate.defaults, options);
+  
+      return this.each(function() {
+        var self = $(this);
+  
+        if (o.noBreaks) self.find('br').replaceWith(' ');
+  
+        var text = self.text();
+        var excess = text.length - o.length;
+  
+        if (o.stripTags) self.text(text);
+  
+        // Chop off any partial words if appropriate.
+        if (o.words && excess > 0) {
+          excess = text.length - text.slice(0, o.length).replace(chop, '').length - 1;
+        }
+  
+        if (excess < 0 || !excess && !o.truncated) return;
+  
+        // Iterate over each child node in reverse, removing excess text.
+        $.each(self.contents().get().reverse(), function(i, el) {
+          var $el = $(el);
+          var text = $el.text();
+          var length = text.length;
+  
+          // If the text is longer than the excess, remove the node and continue.
+          if (length <= excess) {
+            o.truncated = true;
+            excess -= length;
+            $el.remove();
+            return;
+          }
+  
+          // Remove the excess text and append the ellipsis.
+          if (el.nodeType === 3) {
+            $(el.splitText(length - excess - 1)).replaceWith(o.ellipsis);
+            return false;
+          }
+  
+          // Recursively truncate child nodes.
+          $el.truncate($.extend(o, {length: length - excess}));
+          return false;
+        });
+      });
+    };
+  
+    $.truncate.defaults = {
+  
+      // Strip all html elements, leaving only plain text.
+      stripTags: false,
+  
+      // Only truncate at word boundaries.
+      words: false,
+  
+      // Replace instances of <br> with a single space.
+      noBreaks: false,
+  
+      // The maximum length of the truncated html.
+      length: Infinity,
+  
+      // The character to use as the ellipsis.  The word joiner (U+2060) can be
+      // used to prevent a hanging ellipsis, but displays incorrectly in Chrome
+      // on Windows 7.
+      // http://code.google.com/p/chromium/issues/detail?id=68323
+      ellipsis: '\u2026' // '\u2060\u2026'
+  
+    };
+  
+  })(jQuery);
+</script>
+
+</body>
+</html>
