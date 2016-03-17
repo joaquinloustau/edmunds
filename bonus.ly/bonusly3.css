@@ -151,8 +151,16 @@ p.to-2 {
 }*/
 .container.timeline {
     width: 100%;
-    background-color: rgb(127, 255, 0);
-    /* background-color: cyan; */
+/*    background-color: rgb(127, 255, 0);
+*/    background-color: cyan;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: cyan !important; 
 }
 
 .timeline-panel:after {
