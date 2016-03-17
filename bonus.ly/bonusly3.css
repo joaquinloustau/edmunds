@@ -9,7 +9,7 @@ body {
 
 .container {
     position: absolute;
-    top: 30%;
+    top: 20%;
 }
 
 .container.timeline {
@@ -18,7 +18,7 @@ body {
 
 .timeline {
     position: absolute;
-    top: 30%;
+    top: 20%;
 }
 
 img.profile {
