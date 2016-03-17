@@ -155,6 +155,14 @@ p.to-2 {
 */    background-color: cyan;
 }
 
+.timeline-panel.fadeable-1 {
+    background-color: white;
+}
+
+.timeline-panel.fadeable-2 {
+    background-color: white;
+}
+
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
